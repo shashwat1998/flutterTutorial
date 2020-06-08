@@ -1,4 +1,4 @@
-import 'screens/wrapper.dart';
+import 'package:brewcrew/screens/wrapper.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

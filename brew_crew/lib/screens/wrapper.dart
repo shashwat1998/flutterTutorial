@@ -1,7 +1,7 @@
-import 'authenticate/authenticate.dart';
-import 'home/home.dart';
+import 'package:brewcrew/screens/authenticate/authenticate.dart';
+import 'package:brewcrew/screens/home/home.dart';
 import 'package:flutter/material.dart';
-import '../models/user.dart';
+import 'package:brewcrew/models/user.dart';
 import 'package:provider/provider.dart';
 
 class Wrapper extends StatelessWidget {

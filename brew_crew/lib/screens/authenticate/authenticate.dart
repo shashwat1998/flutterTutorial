@@ -1,5 +1,5 @@
-import 'sign_in.dart';
-import 'register.dart';
+import 'package:brewcrew/screens/authenticate/sign_in.dart';
+import 'package:brewcrew/screens/authenticate/register.dart';
 import 'package:flutter/material.dart';
 
 
