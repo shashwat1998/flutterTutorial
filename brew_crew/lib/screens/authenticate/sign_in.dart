@@ -1,6 +1,5 @@
-import 'package:brewcrew/shared/constants.dart';
-
 import 'package:brewcrew/services/auth.dart';
+import 'package:brewcrew/shared/constants.dart';
 import 'package:brewcrew/shared/loading.dart';
 import 'package:flutter/material.dart';
 
@@ -56,8 +55,8 @@ class _SignInState extends State<SignIn> {
               ),
               SizedBox(height: 20.0),
               TextFormField(
-                decoration: textInputDecoration.copyWith(hintText: 'password'),
                 obscureText: true,
+                decoration: textInputDecoration.copyWith(hintText: 'password'),
                 validator: (val) => val.length < 6 ? 'Enter a password 6+ chars long' : null,
                 onChanged: (val) {
                   setState(() => password = val);
